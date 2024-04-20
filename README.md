@@ -10,9 +10,9 @@ both had issues with GPU/Prime. I installed Manjaro with the proprietary GPU dri
 Connected headphones didn't work. Switching over to pipewire by installing `manjaro-pipewire` fixes this. This also enables you to use more modern bluetooth audio codecs. The 4 speakers seem to work fine on Kernels >= 6.6 now.
 
 ## Sound quality of speakers
-The speakers sound pretty flat per default, even with the tweeters and the woofers both emitting sound. This can be fixed with easyeffects by following this guide: https://wwmm.github.io/easyeffects/guide_1.html
+The speakers sound pretty flat per default, even with the tweeters and the woofers both emitting sound. This can be fixed with easyeffects by following this guide: https://wwmm.github.io/easyeffects/guide_1.html I had a better experience with the easyeffects package from manjaro sources, the flatpak version would break after suspending and reusming the laptop.
 
-I've also added the profile to this repo: [speakers profile](./easyeffects/Speakers.json)
+I've also added the spakers effects profile to this repo: [speakers profile](./easyeffects/Speakers.json), it can be imported in easyeffects directly. The volume is set very conservatively to avoid any distortion, feel free to update to your taste.
 
 Remeber to setup easyeffects to disable this profile on all other outputs in 
 
