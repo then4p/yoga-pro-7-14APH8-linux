@@ -38,3 +38,6 @@ Setting `amdgpu.sg_display=0` as additional kernel parameter seems to fix this i
 - Automatically set the clean profile in easyeffects on new audio outputs
 - Volume controls with headphones do not work, adjusting 'bass speaker' in `alsamixer`fixes this. Probably has to do with the 4 channels used in speaker mode
   
+# Further sources
+
+https://wiki.archlinux.org/title/Lenovo_Yoga_Pro_7_14APH8 (some of the info is outdated here)
